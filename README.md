@@ -30,7 +30,7 @@ def read_four_distinct_digits(): # Read string which has four distinct digits
         return ret
     print(str(ret)+' is not valid.')
 
-def replace_AnswerList(ANS_list,ANS,GUESS,a,b):
+def replace_AnswerList(ANS_list,ANS,GUESS,a,b): #建立所有可能答案，並將和曾猜過答案A、B值不同的可能答案剔除
     n=0
     ANS_list_len = len(ANS_list)
     for i in range(0,ANS_list_len):
