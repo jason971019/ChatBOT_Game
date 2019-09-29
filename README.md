@@ -1,6 +1,10 @@
 # ChatBOT_Game
 ## Object
 Doing a Bull and Cows game on a Telegram chatbot. Force users to guess at least 7 times. Cheating is a must. However, cheating must not be caught.
+## Result
+![image](https://github.com/jason971019/ChatBOT_Game/blob/master/demo.png)
+![image](https://github.com/jason971019/ChatBOT_Game/blob/master/Valid.png)  
+- 以前三次猜測為例，每次換的答案皆符合已猜過答案的A、B值
 ## Code
 ```Python
 import random, os
